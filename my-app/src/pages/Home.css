@@ -39,6 +39,17 @@ header button:hover a{
 header button:hover{
     opacity: .6;
 }
+header span{
+    display: block;
+    font-size: 100px;
+    color: tomato;
+    
+}
+header .header-box{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
 header img {
     max-width: 100%;
     width: 430px;
@@ -54,4 +65,15 @@ header img {
     100%{
         transform: translateY(-10px);
     }
+}
+header svg{
+    color: var(--btn-color);
+    font-size: 80px;
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    animation: mover  2s infinite alternate;
+    /* transform: rotate(45deg) !important; */
+
+
 }
