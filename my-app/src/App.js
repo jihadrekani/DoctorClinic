@@ -3,6 +3,7 @@ import './App.css';
 import Navbars from './Components/Nav/Navbar';
 import Home from './pages/Home';
 import Footer from './Components/Footer/Footer';
+import About from './Components/About/About';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 
     <Navbars />
     <Home />
+    <About />
     <Footer />
   
     </Fragment>

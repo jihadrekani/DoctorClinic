@@ -39,7 +39,7 @@ header button:hover a{
 header button:hover{
     opacity: .6;
 }
-header span{
+/* header span{
     display: block;
     font-size: 100px;
     color: #fff;
@@ -51,7 +51,7 @@ header span{
     -webkit-animation: mover 1s infinite alternate ;
     -o-animation: mover 1s infinite alternate ;
 
-}
+} */
 header .header-box{
     position: relative;
     max-width: 100%;
@@ -61,11 +61,22 @@ header img {
     max-width: 100%;
     width: 430px;
     height: auto;
-    animation: mover 1s infinite alternate;
-    -moz-animation: mover 1s infinite alternate ;
-    -webkit-animation: mover 1s infinite alternate ;
-    -o-animation: mover 1s infinite alternate ;
+    animation: mover 3s infinite alternate;
+    -moz-animation: mover 3s infinite alternate ;
+    -webkit-animation: mover 3s infinite alternate ;
+    -o-animation: mover 3s infinite alternate ;
 
+    transition: .3s ease all;
+}
+.pluse{
+    max-width: 100%;
+    width: 100px;
+    height: auto;
+    margin-top: 150px;
+    animation: mover 2s infinite alternate;
+    -moz-animation: mover 2s infinite alternate ;
+    -webkit-animation: mover 2s infinite alternate ;
+    -o-animation: mover 2s infinite alternate ;
     transition: .3s ease all;
 }
 
@@ -103,17 +114,28 @@ header img {
     }
 }
 header svg{
-    color: var(--btn-color);
-    font-size: 80px;
+    color: #ddd;
+    border: 1px dashed var(--main-color);
+    font-size: 60px;
     position: absolute;
     left: 0%;
     top: 10%;
-    animation: mover 1s infinite alternate;
-    -moz-animation: mover 1s infinite alternate ;
-    -webkit-animation: mover 1s infinite alternate ;
-    -o-animation: mover 1s infinite alternate ;
+    animation: mover 2s infinite alternate;
+    -moz-animation: mover 2s infinite alternate ;
+    -webkit-animation: mover 2s infinite alternate ;
+    -o-animation: mover 2s infinite alternate ;
     /* transform: rotate(45deg) !important; */
-
-
-
+}
+header .squire{
+    color: #ddd;
+    position: absolute;
+    width: 70px;
+    height: auto;
+    left: 0%;
+    top: 10%;
+    animation: mover 2s infinite alternate;
+    -moz-animation: mover 2s infinite alternate ;
+    -webkit-animation: mover 2s infinite alternate ;
+    -o-animation: mover 2s infinite alternate ;
+    /* transform: rotate(45deg) !important; */
 }

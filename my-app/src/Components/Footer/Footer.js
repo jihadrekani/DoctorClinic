@@ -69,7 +69,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-md-12">
-                        <span>Copyright © 2022 Design & Developed by Jihad Issa</span>
+                        <p>Copyright © 2022 Design & Developed by <span>Jihad Issa</span></p>
                     </div>
                 </div>
             </div>
