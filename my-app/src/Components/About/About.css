@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;}
 
-
+.container{
+    position: relative;
+}
 .container ul{
     display: flex;
     flex-wrap: wrap;
@@ -42,11 +44,12 @@
 .container ul li .img3{
     border-radius: 60px 60px 60px 0;
     margin-bottom: auto;
-    margin-left: auto;
+    margin-left: 30px;
     border-style: none;
     height: auto;
     max-width: 100%;
     vertical-align: middle;
+    ;
 }
 .container ul li .experience{
     background-color: #e6e7ff;
@@ -67,4 +70,56 @@
     display: block;
     font-size: 18px;
     color: #1f2278;
+}
+.container ul:first-child:after{
+    top: 51%;
+    left: 41%;
+    content: "";
+    position: absolute;
+    top: 49%;
+    left: 20%;
+    width: 50px;
+    height: 50px;
+    background-color: #f17732;
+    border-radius: 15px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: 0;
+    padding: 0;
+}
+.about-squire{
+    top: 50%;
+    right: 7%;
+    border-style: none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    position: relative;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: -1;
+    animation: moveupdown 8s infinite alternate;
+}
+.emergency{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-box h5{
+   width: 200px;
+   border: 1px solid var(--main-color);
+   border-radius: 4px;
+   padding: 10px 10px;
+}
+
+
+@keyframes moveupdown 
+  {
+    0%{
+        transform:rotate(45deg)
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
