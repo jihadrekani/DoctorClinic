@@ -2,6 +2,8 @@ import React from 'react'
 import {Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
 import './Nav.css'; 
 import logo from '../../assets/logo.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch, faPhone} from '@fortawesome/free-solid-svg-icons'
 export default function Navbars() {
   return (
     <Navbar expand="lg">
@@ -34,8 +36,11 @@ export default function Navbars() {
 
           </NavDropdown>
           <Nav.Link href="#home">Contact us</Nav.Link>
-          <Nav.Link href="#home">Search</Nav.Link>
-          <Nav.Link href="#home">Icon + (+964)7932888</Nav.Link>
+          <Nav.Link href="#home"><FontAwesomeIcon icon={faSearch}/>
+          </Nav.Link>
+          <Nav.Link href="#home"> 
+          <FontAwesomeIcon icon={faPhone} className="phone"/>
+          (+964)7932888</Nav.Link>
           <Nav.Link>
             <button>Contact Us <span> > </span></button>
           </Nav.Link>
