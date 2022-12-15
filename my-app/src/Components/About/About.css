@@ -93,6 +93,9 @@ color: var(--orange-color);
     display: flex;
     justify-content: space-between;
 }
+
+
+
 .list1 h2{
     font-size: 16px;
    border: 1px solid #B2F0FB;
