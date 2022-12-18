@@ -1,0 +1,100 @@
+.slider{
+    margin-left: 50%;
+    margin-right: 50%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+.drjihad {
+    width: 50px !important;
+    height: auto !important;
+    border-radius: 50%;
+    margin-left: -35px;
+}
+.dr-bx1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+.dr-bx1 span {
+    display: inline;
+    padding-top: 11px;
+    margin-left: 200px;
+    color: var(--orange-color);
+    font-weight: 600;
+
+
+}
+ .dr-bx1 p{
+    display: inline;
+    padding-top: 11px;
+    margin-left: 7px;
+    color: var(--orange-color);
+    font-weight: 600; 
+} 
+/* birhat */
+.drbirhat {
+    width: 50px !important;
+    height: auto !important;
+    border-radius: 50%;
+    margin-left: -35px;
+}
+.dr-bx2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+.dr-bx2 span {
+    display: inline;
+    padding-top: 11px;
+    margin-left: 200px;
+    color: var(--orange-color);
+    font-weight: 600;
+
+
+}
+ .dr-bx2 p{
+    display: inline;
+    padding-top: 11px;
+    margin-left: 7px;
+    color: var(--orange-color);
+    font-weight: 600; 
+} 
+/* ayad */
+
+.drayad {
+    width: 50px !important;
+    height: auto !important;
+    border-radius: 50%;
+    margin-left: -35px;
+}
+.dr-bx3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+.dr-bx3 span {
+    display: inline;
+    padding-top: 11px;
+    margin-left: 200px;
+    color: var(--orange-color);
+    font-weight: 600;
+
+
+}
+ .dr-bx3 p{
+    display: inline;
+    padding-top: 11px;
+    margin-left: 7px;
+    color: var(--orange-color);
+    font-weight: 600; 
+} 
+.slider h4{
+    color: var(--main-color);
+    font-weight: 600;
+}
