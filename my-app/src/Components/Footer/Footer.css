@@ -1,11 +1,25 @@
 /* we have some footer css code in the index.css file  */
 
+footer{
+  border-top: 1px solid #d4d5f1 ;
+  background-color: red !important;
+  padding-top: 0px !important;
+
+}
 
 
+
+.copyfoot{
+  border-top: 1px solid #d4d5f1;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
 h6{
   color: var(--main-color);
   font-size: 24px !important;
 }
+    
 
 
 p a:hover{

@@ -68,7 +68,7 @@
 
 
 
-.about-box1 h2{
+div .about-box1 h2{
     color: var(--main-color);
     font-weight: 700;
     font-size: 40px;
@@ -96,14 +96,14 @@ color: var(--orange-color);
 
 
 
-.list1 h2{
+.list-group .list1 h2{
     font-size: 16px;
    border: 1px solid #B2F0FB;
    width: 45%;
    padding: 0px 25px 0px 0px ;
    border-radius: 10px;
 }
-.list2 h2{
+.list-group .list2 h2{
     font-size: 16px;
    border: 1px solid #FFDBDB;
    padding-right: 20px;
@@ -172,10 +172,10 @@ color: var(--orange-color);
         align-items: center !important;
     
     }
-    .list1 h2{
+    .list-group .list1 h2{
         font-size: 14px;
     }
-    .list2 h2{
+   .list-group .list2 h2{
         font-size: 14px;
     }
    
@@ -198,7 +198,7 @@ color: var(--orange-color);
        height: auto;
        max-width: 100%;
     }
-    .about-box1 h2{
+    div .about-box1 h2{
         font-size: 28px ;
     }
     
@@ -209,10 +209,10 @@ color: var(--orange-color);
     .list-group .list2{
         display: inline;
     }
-    .list1 h2{
+    .list-group .list1 h2{
         width: 100%;
     }
-    .list2 h2{
+    .list-group .list2 h2{
         width: 100%;
     }
 }
