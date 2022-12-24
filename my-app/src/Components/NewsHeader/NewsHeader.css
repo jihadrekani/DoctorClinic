@@ -32,7 +32,6 @@
  @media only screen and (max-width: 1024px) and (min-width: 992px){  
     div .news h4{
         margin-left: -16% !important;
-         
       }
       .news{
         margin-left: 35px !important;
@@ -41,8 +40,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
       }
   } 
   @media only screen and (max-width: 991px) and (min-width: 768px){  
@@ -62,9 +59,7 @@
     margin-bottom: -90px !important;
     margin-top: -10px !important;
   }
-  
   } 
-
   @media only screen and (max-width: 787px){
     div .news h2{
       font-size: 44px;
@@ -75,31 +70,7 @@
       margin-bottom: -80px !important;
     }
   }
-  @media only screen and (max-width: 693px){
-    div .news h2{
-      font-size: 40px;
-      margin-top: 0px !important;
-      
-    }
-  }
-  @media only screen and (max-width: 631px){
-    div .news h2{
-      font-size: 30px;
-    }
-    div .news h4{
-      font-size: 20px !important;
-      width: 118px !important;
-      margin-bottom: 0px;
-      padding-left: 4px !important;
-    }
-  }
-  @media only screen and (max-width: 631px){
-    div .news h2{
-      font-size: 25px;
-      margin-top: 5px !important;
-      margin-bottom: 0px !important;
-  }}
-  @media only screen and (max-width: 767px){
+  @media only screen and (max-width: 767px) and (min-width: 632px){
     .news{
       margin-top: 110px;
       margin-bottom: 10px !important;
@@ -112,42 +83,84 @@
       align-items: center;
     }
     div .news h2{
-      margin-left: 0px !important;  
+      margin-left: 0px !important; 
+      margin-bottom: 20px !important; 
+      margin-top: -10px !important;
     }
     div .news h4{
       margin-bottom: 15px !important;
     }
   }
-
-  @media only screen and (max-width: 401px){
+  /* @media only screen and (max-width: 767px) and (min-width: 632px){ 
+    .news{
+      margin-bottom: 30px !important;
+    }
+  } */
+  
+    @media only screen and (max-width: 693px) and (min-width: 632px){
     div .news h2{
-      font-size: 23px;
+      font-size: 40px;
+      margin-top: 0px !important;
+      
     }
-     
-    div .news h4{
-      font-size: 16px !important;
-      width: 100px !important;
-      padding-left: 5px !important;
-      padding-right: 5px !important;
-
-    }
-
   }
-  @media only screen and (max-width: 370px){
-    div .news h2{
-      font-size: 20px;
+  
+  @media only screen and (max-width: 631px){
+    .news{
+      margin-top: 110px;
+      margin-bottom: 10px !important;
+      display: flex;
+      flex-direction: column;
+      /* justify-content: center; */
+      align-items: center;
     }
-     
+    div .news h2{
+      margin-left: 0px !important; 
+      margin-bottom: 20px !important; 
+      margin-top: -10px !important;
+      font-size: 32px;
+    }
+    div .news h4{
+      margin-bottom: 15px !important;
+      font-size: 20px !important;
+      width: 110px !important;
+    }
+}
+@media only screen and (max-width: 508px){
+  div .news h2{
+    font-size: 26px;
+  }
+  div .news h4{
+    font-size: 17px !important;
+    width: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 416px){
+  div .news {
+      
+      margin-top: 30px;
+  }
+  div .news h2{
+    font-size: 22px;
+  }
+  div .news h4{
+    font-size: 15px !important;
+    width: 86px !important;
+  }
+}
+@media only screen and (max-width: 355px){
+ 
+  div .news h2{
+    font-size: 18px;
+  }
+  div .news h4{
+    font-size: 13px !important;
+    width: 75px !important;
+  }
+}
+
   
 
-  }
-  @media only screen and (max-width: 444px){
-    div .news {
-        /* display: inline; */
-        /* padding-top: 11px; */
-        /* margin-left: 70px !important; */
-        /* color: var(--orange-color); */
-        /* font-weight: 600; */
-        margin-top: 30px;
-    }
-  }
+  
+ 
