@@ -4,6 +4,7 @@ import { faSquare } from '@fortawesome/free-solid-svg-icons'
 import headergirl from '../assets/headergirl.png';
 import pluse from '../assets/pluse.png'
 import squire from '../assets/squire.png'
+import drmarwan from '../assets/drmarwan.jpg'
 import './Home.css';
 const Home = ()=> {
   return (
@@ -19,7 +20,7 @@ const Home = ()=> {
                 </div>
                 <div className='col-lg-6 col-md-6'>
               <div className='header-box'>
-              <img src={headergirl} />
+              <img src={drmarwan} />
                 {/* installing FontAwesome second video min 23:00 */}
                 <img src={squire} className='squire'/>
                 {/* <FontAwesomeIcon icon={faSquare}/> */}

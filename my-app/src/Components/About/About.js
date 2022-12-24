@@ -1,8 +1,6 @@
 import React from 'react'
-import about1 from '../../assets/about1.jpg'
-import about2 from '../../assets/about2.jpg'
-import about3 from '../../assets/about3.jpg'
 import squire from '../../assets/squire.png'
+import drmustefa from '../../assets/drmustefa.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faThin, faHeart} from '@fortawesome/free-solid-svg-icons'
 import './About.css'
@@ -13,7 +11,7 @@ const About = ()=> {
             <div className='col-lg-6 col-md-12 col-sm-12'>
                <ul className='images'>
                 {/* <li><img src={about1} className="img1"/></li> */}
-                <li><img src={about2} className="img2"/></li>
+                <li><img src={drmustefa} className="img2"/></li>
                 {/* <li><img src={about3} className="img3"/></li> */}
                 {/* <li><div className='experience'>20 <span>Year Experience</span></div></li> */}
                </ul>

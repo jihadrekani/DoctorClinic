@@ -58,7 +58,7 @@
 .drjihad {
     width: 50px !important;
     height: auto !important;
-    border-radius: 50%;
+    border-radius: 50% !important;
     margin-left: 10px;
 }
 .dr-bx1{
