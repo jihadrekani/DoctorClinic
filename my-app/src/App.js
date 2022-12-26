@@ -7,6 +7,7 @@ import About from './Components/About/About';
 import News from './Components/News.js/News';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import NewsHeader from './Components/NewsHeader/NewsHeader';
+import Doctors from './Components/Doctors/Doctors';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <About />
    <NewsHeader />
     <News />
+    <Doctors />
     <Footer />
   
     </Fragment>
