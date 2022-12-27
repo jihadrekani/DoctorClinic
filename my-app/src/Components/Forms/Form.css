@@ -1,8 +1,4 @@
 
-
-
-
-
 * {
     outline: none;
     padding: 0;
@@ -11,6 +7,7 @@ body {
     line-height: 1.7;
     color: #444;
 }
+
 .appointment-thumb img {
     border-style: none;
     height: auto;
@@ -43,7 +40,8 @@ img, svg {
     }}
 @media only screen and (max-width: 991px){
 .appointment-thumb .images-group .img1 {
-    height: 180px !important ;
+    /* height: 180px !important ; */
+    display: none;
 }}
 
 @media only screen and (max-width: 1380px){
@@ -67,17 +65,18 @@ img, svg {
 }
 
 /* 2222222222222222222222222 */
-@media only screen and (max-width: 767px){
+
+/* @media only screen and (max-width: 767px){
     .appointment-thumb .images-group .img2 {
         left: 39px !important;
         width: 50px !important;
         bottom: 110px !important;
-    }}
+    }} */
 @media only screen and (max-width: 991px){
 .appointment-thumb .images-group .img2 {
     left: 39px ;
-    width: 50px;
-    bottom: 110px;
+    width: 50px !important;
+    bottom: 110px !important;
 }}
 @media only screen and (max-width: 1199px){
 .appointment-thumb .images-group .img2 {
@@ -259,6 +258,20 @@ img, svg {
         }
 
 /* form */
+.circle{
+    width: 80px;
+    position: absolute;
+    right: 0% !important;
+    bottom: -12%;
+    -webkit-animation: up-down 2s infinite alternate;
+    animation: up-down 2s infinite alternate;
+}
+@media only screen and (max-width: 991px){
+   .circle{ width: 50px;
+    position: absolute;
+    right: 15% !important;
+    bottom: -15%;
+}}
 
 .both{
 margin-top: 150px !important;

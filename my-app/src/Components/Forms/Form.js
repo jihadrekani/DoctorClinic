@@ -1,12 +1,14 @@
 import React from 'react'
 import appointment from '../../assets/appointment.png'
-import './Doctors.css'
+import './Form.css'
 import img1 from '../../assets/appointment-girl.png'
 import img2 from '../../assets/appointment-location.png'
 import img3 from '../../assets/appointment-setting.png'
 import img4 from '../../assets/appointment-verify.png'
 import img5 from '../../assets/appointment-heart.png'
-export default function Doctors() {
+import formcircle from '../../assets/form-circle.png'
+
+export default function Form() {
   return (
     <div className='container both'>
         <div className='row align-items-center'>
@@ -58,6 +60,7 @@ export default function Doctors() {
                         <img className='img4' src={img4} alt="" />
                         <img className='img5' src={img5} alt="" />
                     </div>
+                    <img className='circle' src={formcircle} alt=""/>
                 </div>
             </div>
         </div>
