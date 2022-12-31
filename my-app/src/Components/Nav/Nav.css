@@ -19,9 +19,9 @@ nav .navbar-nav a:hover,
 nav .navbar-nav a:focus{
     color: var(--orange-color) !important;
 }
-nav .navbar-nav .active{
+/* nav .navbar-nav .active{
     color: var(--orange-color) !important;
-}
+} */
 nav .navbar-nav svg.phone{
     margin-right: 8px;
 
