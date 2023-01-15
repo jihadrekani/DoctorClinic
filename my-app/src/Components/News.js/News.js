@@ -23,6 +23,7 @@ import drmarwan from "../../assets/drmarwan.jpg";
 import drmustefa from "../../assets/drmustefa.jpg";
 import drihsan from "../../assets/drihsan.jpg";
 import dradrees from "../../assets/dradrees.jpg";
+import { Link } from "react-router-dom";
 
 const News = () => {
   return (
@@ -37,7 +38,7 @@ const News = () => {
     >
 
 
-<div lassName="items">
+<div className="items">
         <img className="rounded-lg" alt="item" src={news2} />
         <div className="dr-bx1">
           <img className="drmarwan" src={drmarwan} />
@@ -52,11 +53,11 @@ const News = () => {
             </span>
           </p>
         </div>
-        <h4>Can you get a diflucan prescription online?</h4>
+        <h4>Orthognathic Surgery</h4>
         <button className="newsbtn">
-          <a href="" className="newslink">
+          <Link to="OrthognathicSurgery" className="newslink">
             Read More{" "}
-          </a>
+          </Link>
         </button>
       </div>
 
@@ -75,16 +76,16 @@ const News = () => {
             </span>
           </p>
         </div>
-        <h4>Can you get a diflucan prescription online?</h4>
+        <h4>Implant</h4>
         <button className="newsbtn">
-          <a href="" className="newslink">
+          <Link to="Implant" className="newslink">
             Read More{" "}
-          </a>
+          </Link>
         </button>
       </div>
 
 
-      <div lassName="items">
+      <div className="items">
         <img className="rounded-lg" alt="item" src={news3} />
         <div className="dr-bx1">
           <img className="drmustefa" src={drmustefa} />
@@ -99,15 +100,15 @@ const News = () => {
             </span>
           </p>
         </div>
-        <h4>Can you get a diflucan prescription online?</h4>
+        <h4>Smile</h4>
         <button className="newsbtn">
-          <a href="" className="newslink">
+          <Link to="smile" className="newslink">
             Read More{" "}
-          </a>
+          </Link>
         </button>
       </div>
 
-      <div lassName="items">
+      <div className="items">
         <img className="rounded-lg" alt="item" src={news4} />
         <div className="dr-bx1">
           <img className="drihsan" src={drihsan} />
@@ -122,15 +123,15 @@ const News = () => {
             </span>
           </p>
         </div>
-        <h4>Can you get a diflucan prescription online?</h4>
+        <h4>Filler</h4>
         <button className="newsbtn">
-          <a href="" className="newslink">
+          <Link to="filler" className="newslink">
             Read More{" "}
-          </a>
+          </Link>
         </button>
       </div>
 
-      <div lassName="items">
+      <div className="items">
         <img className="rounded-lg" alt="item" src={news5} />
         <div className="dr-bx1">
           <img className="dradrees" src={dradrees} />
@@ -145,11 +146,11 @@ const News = () => {
             </span>
           </p>
         </div>
-        <h4>Can you get a diflucan prescription online?</h4>
+        <h4>Gingival Aesthetics</h4>
         <button className="newsbtn">
-          <a href="" className="newslink">
+          <Link to="GingivalAesthetics" className="newslink">
             Read More{" "}
-          </a>
+          </Link>
         </button>
       </div>
     </Carousel>

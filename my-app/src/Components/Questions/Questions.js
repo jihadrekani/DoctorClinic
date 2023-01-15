@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 export default function Questions() {
   return (
-    <div class="container questions">
+    <div className="container questions">
       <h2 className="q-header">Frequently Asked Questions</h2>
-      <div class="row ">
-        <div class="col">
+      <div className="row ">
+        <div className="col">
           <h4>
             {" "}
             
@@ -23,7 +23,7 @@ export default function Questions() {
             visit the dentist every 3 months.
           </p>
         </div>
-        <div class="col">
+        <div className="col">
           <h4>
             
             Are checkups important?
@@ -34,8 +34,8 @@ export default function Questions() {
             are important as they can help see if you’re healthy!
           </p>
         </div>
-        <div class="w-100"></div>
-        <div class="col">
+        <div className="w-100"></div>
+        <div className="col">
           <h4>
             
             Why do I Need Dental X-Rays?
@@ -51,7 +51,7 @@ export default function Questions() {
             covered by Medicare.
           </p>
         </div>
-        <div class="col">
+        <div className="col">
           <h4>
             I Have Sensitive
             Teeth. How Do I Fix This?
@@ -63,8 +63,8 @@ export default function Questions() {
             and a mouth guard may be necessary.
           </p>
         </div>
-        <div class="w-100"></div>
-        <div class="col">
+        <div className="w-100"></div>
+        <div className="col">
           <h4>
             
             How Do I Practice Good Oral Hygiene at Home?
@@ -74,7 +74,7 @@ export default function Questions() {
             here are some steps you can take for great dental wellbeing.
           </p>
         </div>
-        <div class="col">
+        <div className="col">
           <h4>
             
             Why does my mouth feel dry

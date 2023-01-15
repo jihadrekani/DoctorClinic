@@ -16,6 +16,7 @@
 .questions {
  background-color: #ddd;
  border-radius: 4px;
+ margin-bottom: 30px;
 }
 @media only screen and (max-width: 767px){
     .questions{

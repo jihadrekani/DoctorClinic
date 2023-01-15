@@ -1,22 +1,25 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquare } from '@fortawesome/free-solid-svg-icons'
-import headergirl from '../assets/headergirl.png';
 import pluse from '../assets/pluse.png'
 import squire from '../assets/squire.png'
 import drmarwan from '../assets/drmarwan.jpg'
-import './Home.css';
-const Home = ()=> {
+import { Link } from 'react-router-dom'
+
+import './WebHeader.css';
+const WebHeader = ()=> {
   return (
+    
     <header>
+      
         <div className='container' >
             <div className='row'>
                 <div className='col-md-6 col-lg-6'>
                   <h5>We Provide All Health Care Solution</h5>
                   <h2>Protect Your Health And Take Care To Of Your Health</h2>
-                  <button><a href='' >Read More</a></button> 
+                  <button><Link to='more1' >Read More</Link></button> 
                   {/* <span>+</span> */}
-                  <img src={pluse} className="pluse"/>
+                  <img src={pluse} className="pluse" alt=''/>
                 </div>
                 <div className='col-lg-6 col-md-6'>
               <div className='header-box'>
@@ -42,4 +45,4 @@ const Home = ()=> {
 
 
 
-export default Home;
+export default WebHeader;

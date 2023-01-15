@@ -3,6 +3,8 @@ nav{
     width: 100%;
     height: auto;
     border-radius: 0px !important;
+    margin-bottom: 40px;
+
 }
 nav .navbar-nav {
     margin-top: 12px;
