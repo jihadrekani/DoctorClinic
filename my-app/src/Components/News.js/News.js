@@ -11,11 +11,13 @@ import {
   faCalendarTimes,
   faCalendarWeek,
 } from "@fortawesome/free-solid-svg-icons";
-import news1 from "../../assets/news1.jpg";
+import OrthognathicSurgery from "../../assets/OrthognathicSurgery.jpg";
+import ImplantSurgery from "../../assets/ImplantSurgery.jpg";
+
 import news2 from "../../assets/news2.jpg";
-import news3 from "../../assets/news3.jpg";
+import smile from "../../assets/smile.jpg";
 import news4 from "../../assets/news4.jpg";
-import news5 from "../../assets/news5.jpg";
+import GingivalAesthetics from "../../assets/GingivalAesthetics.jpg";
 import drjihad from "../../assets/avatar2.jfif";
 // import drbirhat from "../../assets/avatar2.jfif";
 // import drayad from "../../assets/avatar3.jfif";
@@ -53,6 +55,30 @@ const News = () => {
             </span>
           </p>
         </div>
+        <h4>Surgeries</h4>
+        <button className="newsbtn">
+          <Link to="Surgeries" className="newslink">
+            Read More{" "}
+          </Link>
+        </button>
+      </div>
+
+
+      <div className="items">
+        <img className="rounded-lg" alt="item" src={OrthognathicSurgery} />
+        <div className="dr-bx1">
+          <img className="drmarwan" src={drmarwan} />
+          <p>
+            Dr Marwan{" "}
+            <span>
+              <FontAwesomeIcon
+                icon={faCalendarWeek}
+                className="envelope me-2"
+              />{" "}
+              12-feb-2023
+            </span>
+          </p>
+        </div>
         <h4>Orthognathic Surgery</h4>
         <button className="newsbtn">
           <Link to="OrthognathicSurgery" className="newslink">
@@ -62,7 +88,7 @@ const News = () => {
       </div>
 
       <div className="items">
-        <img className="rounded-lg " alt="item" src={news1} />
+        <img className="rounded-lg " alt="item" src={ImplantSurgery} />
         <div className="dr-bx1">
           <img className="drjihad" src={drjihad} />
           <p>
@@ -76,7 +102,7 @@ const News = () => {
             </span>
           </p>
         </div>
-        <h4>Implant</h4>
+        <h4>Implant Surgery</h4>
         <button className="newsbtn">
           <Link to="Implant" className="newslink">
             Read More{" "}
@@ -86,7 +112,7 @@ const News = () => {
 
 
       <div className="items">
-        <img className="rounded-lg" alt="item" src={news3} />
+        <img className="rounded-lg" alt="item" src={smile} />
         <div className="dr-bx1">
           <img className="drmustefa" src={drmustefa} />
           <p>
@@ -132,7 +158,7 @@ const News = () => {
       </div>
 
       <div className="items">
-        <img className="rounded-lg" alt="item" src={news5} />
+        <img className="rounded-lg" alt="item" src={GingivalAesthetics} />
         <div className="dr-bx1">
           <img className="dradrees" src={dradrees} />
           <p>

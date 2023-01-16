@@ -9,6 +9,7 @@ import Implant from "./pages/Implant";
 import Smile from "./pages/Smile";
 import Filler from "./pages/Filler";
 import GingivalAesthetics from "./pages/GingivalAesthetics";
+import Surgeries from "./pages/Surgeries";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="Smile" element={<Smile />} />
         <Route path="Filler" element={<Filler />} />
         <Route path="GingivalAesthetics" element={<GingivalAesthetics />} />
+        <Route path="Surgeries" element={<Surgeries />} />
         
       </Routes>
 
