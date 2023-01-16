@@ -20,8 +20,21 @@ h6{
   font-size: 24px !important;
 }
     
-
-
+.tell1,  .tell2{
+  display: block;
+  color: inherit ;
+}
+.tell2{
+  margin-top: 10px;
+}
+.tell1:hover{
+  color: var(--main-color) !important;
+  
+}
+  .tell2:hover{
+  color: var(--main-color) !important;
+  
+}
 p a:hover{
   color: var(--main-color) !important;
 }

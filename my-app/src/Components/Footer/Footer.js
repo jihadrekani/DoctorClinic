@@ -68,10 +68,10 @@ const Footer = () =>{
           <p><FontAwesomeIcon icon={faHome} className="home"/> Duhok, Barzan Street </p>
           
           <p><FontAwesomeIcon icon={faEnvelope} className="envelope me-2"/>
-            info@example.com  
+            jihadfed95@gmail.com  
           </p>
-          <p><FontAwesomeIcon icon={faPhone} className="phone"/> + 01 234 567 88</p>
-          <p><FontAwesomeIcon icon={faPhone} className="phone"/> + 01 234 567 89</p>
+          <a className="tell1"  href="tel:07507932888"><FontAwesomeIcon icon={faPhone}  className="phone " />   07507932888</a>
+          <a className="tell2"  href="tel:07507932888"><FontAwesomeIcon icon={faPhone} className="phone"/> 07507932888</a>
         </div>
         {/* <!-- Grid column --> */}
       </div>
