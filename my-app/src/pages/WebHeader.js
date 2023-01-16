@@ -23,9 +23,9 @@ const WebHeader = ()=> {
                 </div>
                 <div className='col-lg-6 col-md-6'>
               <div className='header-box'>
-              <img src={drmarwan} />
+              <img src={drmarwan} alt="" />
                 {/* installing FontAwesome second video min 23:00 */}
-                <img src={squire} className='squire'/>
+                <img src={squire} alt="" className='squire'/>
                 {/* <FontAwesomeIcon icon={faSquare}/> */}
               </div>
                 </div>

@@ -43,7 +43,7 @@ const News = () => {
 <div className="items">
         <img className="rounded-lg" alt="item" src={news2} />
         <div className="dr-bx1">
-          <img className="drmarwan" src={drmarwan} />
+          <img className="drmarwan" alt="" src={drmarwan} />
           <p>
             Dr Marwan{" "}
             <span>
@@ -67,7 +67,7 @@ const News = () => {
       <div className="items">
         <img className="rounded-lg" alt="item" src={OrthognathicSurgery} />
         <div className="dr-bx1">
-          <img className="drmarwan" src={drmarwan} />
+          <img className="drmarwan" alt="" src={drmarwan} />
           <p>
             Dr Marwan{" "}
             <span>
@@ -90,7 +90,7 @@ const News = () => {
       <div className="items">
         <img className="rounded-lg " alt="item" src={ImplantSurgery} />
         <div className="dr-bx1">
-          <img className="drjihad" src={drjihad} />
+          <img className="drjihad" about="alt" src={drjihad} />
           <p>
             Jihad Issa{" "}
             <span>
@@ -114,7 +114,7 @@ const News = () => {
       <div className="items">
         <img className="rounded-lg" alt="item" src={smile} />
         <div className="dr-bx1">
-          <img className="drmustefa" src={drmustefa} />
+          <img className="drmustefa" alt="" src={drmustefa} />
           <p>
             Dr Mustefa{" "}
             <span>
@@ -137,7 +137,7 @@ const News = () => {
       <div className="items">
         <img className="rounded-lg" alt="item" src={news4} />
         <div className="dr-bx1">
-          <img className="drihsan" src={drihsan} />
+          <img className="drihsan" alt="" src={drihsan} />
           <p>
             Dr Ihsan{" "}
             <span>
@@ -160,7 +160,7 @@ const News = () => {
       <div className="items">
         <img className="rounded-lg" alt="item" src={GingivalAesthetics} />
         <div className="dr-bx1">
-          <img className="dradrees" src={dradrees} />
+          <img className="dradrees" alt="" src={dradrees} />
           <p>
             Dr Adrees{" "}
             <span>
