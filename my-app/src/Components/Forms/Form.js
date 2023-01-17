@@ -19,18 +19,22 @@ export default function Form() {
                         <div className='form-group'>
                             <select className='form-select form-control'>
                                 <option>Selecty Department</option>
-                                <option value={1}>One</option>
-                                <option value={2}>Two</option>
-                                <option value={3}>Three</option>
+                                <option value={1}>Surgeries</option>
+                                <option value={2}>Orthognathic Surgery</option>
+                                <option value={3}>Implant Surgery</option>
+                                <option value={3}>Smile</option>
+                                <option value={3}>Filler</option>
+                                <option value={3}>Gingival Aesthetics</option>
                             </select>
                         </div>
 
                         <div className='form-group'>
                         <select className='form-select form-control'>
                                 <option>Select Doctor</option>
-                                <option value={1}>One</option>
-                                <option value={2}>Two</option>
-                                <option value={3}>Three</option>
+                                <option value={1}>Dr Marwan</option>
+                                <option value={2}>Dr Mustafa</option>
+                                <option value={3}>Dr Adrees</option>
+                                <option value={3}>Dr Ihsan</option>
                             </select>
                         </div>
 
