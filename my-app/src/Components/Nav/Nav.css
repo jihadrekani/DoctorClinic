@@ -7,6 +7,12 @@ nav{
 
 }
 
+.logo{
+    width: 130px;
+    height: 70px;
+    background-color: red;
+}
+
 nav .navbar-nav {
     margin-top: 12px;
 }
