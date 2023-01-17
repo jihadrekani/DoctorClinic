@@ -3,8 +3,7 @@ nav{
     width: 100%;
     height: auto;
     border-radius: 0px !important;
-    margin-bottom: 40px;
-
+    margin-bottom: 30px;
 }
 
 .logo{
@@ -14,15 +13,16 @@ nav{
 }
 
 nav .navbar-nav {
-    margin-top: 12px;
+    /* margin-top: 12px; */
 }
 nav .navbar-nav a{
 color: var(--main-color);
 font-weight: 700;
 letter-spacing: 1px;
-margin-right: 6px;
+margin-right: 36px;
 font-size: 16px;
 transition: .3s ease all;
+float: right;
 }
 nav .navbar-nav a:hover,
 nav .navbar-nav a:focus{
@@ -35,7 +35,7 @@ nav .navbar-nav svg.phone{
     margin-right: 8px;
 
 }
-nav .navbar-nav button{
+/* nav .navbar-nav button{
     background-color: var(--btn-color) !important;
     border: 1px solid var(--btn-color);
     width: 200px;
@@ -49,8 +49,8 @@ nav .navbar-nav button{
     justify-content: center;
     align-items: center;
     transition: .3s ease-in-out ;
-}
-nav .navbar-nav button:hover{
+} */
+/* nav .navbar-nav button:hover{
     background-color: rgb(66, 66, 175) !important;
     border: 1px solid rgb(66, 66, 175);
 }
@@ -63,7 +63,8 @@ nav .navbar-nav button span{
     text-align: center;
     line-height: 40px;
     margin-left: 15px;
-}
+} */
+
 .navbar-nav .dropdown-menu{
     position: static;
     background-color: #fff;

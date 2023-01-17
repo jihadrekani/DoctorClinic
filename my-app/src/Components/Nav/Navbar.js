@@ -23,7 +23,6 @@ export default function Navbars() {
             <NavDropdown.Item href='#action3.1'>Error 404</NavDropdown.Item>
             <NavDropdown.Item href='#action3.1'>Login / Register</NavDropdown.Item>
           </NavDropdown>
-
           <NavDropdown title="Services" id="basic-nav-dropdown">
           <NavDropdown.Item href='#action3.1'>Servises</NavDropdown.Item>
           <NavDropdown.Item href='#action3.1'>Servises Details</NavDropdown.Item>
@@ -33,17 +32,17 @@ export default function Navbars() {
           <NavDropdown  title="Blog" id="basic-nav-dropdown">
           <NavDropdown.Item href='#action3.1'>Blogs</NavDropdown.Item>
           <NavDropdown.Item href='#action3.1'>Blogs Details</NavDropdown.Item>
-
           </NavDropdown>
           <Nav.Link href="#home">Contact us</Nav.Link>
-          <Nav.Link href="#home"><FontAwesomeIcon icon={faSearch}/>
-          </Nav.Link>
+          {/* <Nav.Link href="#home"><FontAwesomeIcon icon={faSearch}/>
+          </Nav.Link> */}
           <Nav.Link href="#home"> 
-          <FontAwesomeIcon icon={faPhone} className="phone"/>
-          (+964)7932888</Nav.Link>
-          <Nav.Link>
-            <button>Contact Us <span> > </span></button>
+          <a href="tel:07507932888"><FontAwesomeIcon icon={faPhone} className="phone"/>
+          (+964)7932888</a>
           </Nav.Link>
+          {/* <Nav.Link>
+            <button>Contact Us <span> > </span></button>
+          </Nav.Link> */}
 
 
         </Nav>
