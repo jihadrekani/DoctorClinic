@@ -38,8 +38,7 @@
 }
 
 .about-squire{
-    top: 50%;
-    right: 7%;
+    left: 27%;
     border-style: none;
     height: auto;
     max-width: 100%;
@@ -53,7 +52,7 @@
 }
 .about-squire2{
     left: 60%;
-    left: 80%;
+    margin-right: 0px !important;
     border-style: none;
     height: auto;
     max-width: 100%;

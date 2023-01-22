@@ -7,6 +7,7 @@ import WebHeader from "./pages/WebHeader";
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
 import News from "./Components/News.js/News";
+import Activities from "./Components/Activities/Activities";
 export default function Home () {
   return (
     <div>
@@ -15,6 +16,7 @@ export default function Home () {
         <About />
         <NewsHeader />
         <News />
+        <Activities />
         <Form />
         <Questions />
         <Footer />
