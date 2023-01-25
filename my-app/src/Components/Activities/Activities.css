@@ -1,7 +1,17 @@
+.act-header{
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 130px;
+    
+}
 .parent{
     margin-top: 250px !important;
     margin-right: auto;
     margin-left: auto;
+    width: 100%;
+    
 
 }
  .card4{
@@ -36,6 +46,11 @@
 }
 
 @media only screen and (max-width: 767px){
+    .act-header{
+    font-size: 40px;
+    margin-bottom: 60px;
+
+    }
 
     .card2{
     margin-top: 40px !important;
@@ -46,9 +61,11 @@ width: 250px !important;
 /* margin-right: auto !important; */
 }
 .parent{
-    margin-left: auto !important;
-    margin-right: auto !important;
+    /* margin-left: auto !important; */
+    /* margin-right: auto !important; */
     width: 75% !important;
+margin-left: 18% !important;
+
 
 }
 }
@@ -57,11 +74,15 @@ width: 250px !important;
 @media only screen and (max-width: 586px){
 .parent{
 margin-left: -8px !important;
-/* width: 100% !important;
-margin-left: auto !important;
-    margin-right: auto !important; */
-
+/* margin-left: 50%; */
 }
+.act-header{
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-left: 22%;
+    width: 70%;
+
+    }
 }
 
 

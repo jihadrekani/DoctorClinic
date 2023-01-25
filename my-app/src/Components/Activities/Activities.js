@@ -16,6 +16,7 @@ export default function Activities() {
   return (
     <Container>
     <Row className="parent">
+        <h2 className="act-header">Our Activities</h2>
       <Col className="card1" xs>  <Card style={{ width: '21rem' }}>
      <Card.Img variant="top" className="card-img" src={italy2023} />
      <Card.Body>
