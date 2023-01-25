@@ -22,7 +22,7 @@ letter-spacing: 1px;
 margin-right: 36px;
 font-size: 16px;
 transition: .3s ease all;
-float: right;
+/* float: right; */
 }
 nav .navbar-nav a:hover,
 nav .navbar-nav a:focus{
@@ -82,6 +82,7 @@ nav .navbar-nav button span{
     font-size: 14px;
     line-height: 30px !important;
     position: relative;
+
     
 }
 .navbar-nav .dropdown-menu a:hover{
@@ -89,10 +90,12 @@ nav .navbar-nav button span{
 }
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer;
-    background-color: var(--btn-color);
+    background-color: ghostwhite;
     border: 1px solid var(--btn-color);
     border-radius: 0px;
+    box-shadow: 2 0 0 var(--bs-navbar-toggler-focus-width) !important;
 }
+
 /* .navbar-nav .dropdown-menu li::before{
     position: absolute;
     content: "";

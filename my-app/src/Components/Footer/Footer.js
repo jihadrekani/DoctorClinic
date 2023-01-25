@@ -62,9 +62,9 @@ const Footer = () =>{
         {/* <!-- Grid column --> */}
 
         {/* <!-- Grid column -->/ */}
-        <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <div className="col-md-4 col-lg-3 col-xl-3 pb-5 mx-auto mb-md-0 mb-4">
           {/* <!-- Links --> */}
-          <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+          <h6 className="text-uppercase fw-bold  mb-4">Contact</h6>
           <p><FontAwesomeIcon icon={faHome} className="home"/> Duhok, Barzan Street </p>
           
           <p><FontAwesomeIcon icon={faEnvelope} className="envelope me-2"/>
