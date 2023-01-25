@@ -20,7 +20,7 @@ export default function Navbars() {
             <NavDropdown.Item href='#action3.1'>Our Team</NavDropdown.Item>
             <NavDropdown.Item href='#action3.1'>FAQ's</NavDropdown.Item>
             <NavDropdown.Item href='#action3.1'>Booking</NavDropdown.Item>
-            <NavDropdown.Item href='#action3.1'>Error 404</NavDropdown.Item>
+            {/* <NavDropdown.Item href='#action3.1'>Error 404</NavDropdown.Item> */}
             <NavDropdown.Item href='#action3.1'>Login / Register</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown title="Services" id="basic-nav-dropdown">
